@@ -1,0 +1,28 @@
+///first run npm init -y to create package json file to configure my backend file, scripts, dependencies
+///and more 
+//2 - create structure the api us going to be in the source folder, but the entry points are going to be in server.js 
+file
+
+//3 - the entire file is managed in the server thee ndpiinrs and all that
+4- install packages(dependencies, e.g express) install nodemon too (nodemon helps develop api easier)
+//express is a js framework for apis, node is an allround 
+
+5- import the express variable
+
+
+//craete endppoint
+//import and use expreess variable
+//create app variable to use express
+//initilaize the port to be used
+ //callback function that says success or not using app.listen
+ //we can initial the server to listen on a port with the app
+//use node mon scriptj
+//the format the return sghould be in
+//creating an endpoint after app()
+
+
+//THERE ARE DIFFRERENT TYPES OF ENDPOINTS TO BE CREATED AND SEPERATED
+//creaate routes to seperate api from each other
+//two notations import and require (to use this, in package.json change type from coommon to module)
+
+//stopped at 46:26
