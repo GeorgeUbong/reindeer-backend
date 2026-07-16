@@ -5,6 +5,7 @@
 //functionality of the application
 //note has items title, body, date
 //Note can: : created, deleted, updated
+//DB password: Qi8XJX1B6Ylbg8tb
 
 //methods: Create note - POST, Delete
 
