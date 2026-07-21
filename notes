@@ -26,3 +26,10 @@ file
 //two notations import and require (to use this, in package.json change type from coommon to module)
 
 //stopped at 46:26
+
+-PT 2 
+- first thing i did was to install prisma and client to enable db communication
+- the next step is to initialize prisma with - init
+- go to your database and choose connection string URI then copy
+- paste the string in your .env
+- test the connection with prisma db pull

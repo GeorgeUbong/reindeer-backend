@@ -10,9 +10,15 @@
 //methods: Create note - POST, Delete
 
 const express = require('express');
-
 const app = express(); // pair express to app variable
-const PORT = 3000;
+const PORT = 5432;
+
+app.use(express.json());
+
+const noteRoutes = require("./notes/routes");
+
+app.use("/notes", noteRoutes);
+
 
 //tell the server to run using app.listen
 app.listen (PORT, () =>{
